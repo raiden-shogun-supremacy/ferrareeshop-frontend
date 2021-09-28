@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
 
 body {
-  font-family: 'Prompt', sans-serif;
+  font-family: 'poppins', sans-serif;
 }
 
 h3 {
@@ -13,4 +13,9 @@ h3 {
 p {
   font-weight: 400;
   font-size: 16px;
+}
+
+
+.App {
+  display: flex;
 }
