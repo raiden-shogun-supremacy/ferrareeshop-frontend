@@ -1,7 +1,8 @@
-const MenuBtn = ({ detail }) => {
+const MenuBtn = ({ detail, onBtnClick }) => {
+
     return (
         <div>
-            <button>
+            <button onClick={() => onBtnClick(detail.name)}>
                 <img src={detail.icon} />
                 {detail.name}
             </button>
