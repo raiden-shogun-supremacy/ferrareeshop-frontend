@@ -12,14 +12,13 @@ h4 {
 }
 
 .container {
-    margin: 20px 20px 20px 350px;
-    /* max-width: 100%; */
-    box-sizing: border-box;
-    /* min-height: 99vh; */
+    margin: 20px;
+    padding-left: 350px;
 }
 
 .content {
     display: flex;
+    padding: 0 10rem 0 10rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -35,8 +34,7 @@ h4 {
     margin: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
-}
+}   
 
 .error-img {
     margin: 20px;

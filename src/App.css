@@ -6,6 +6,7 @@ body {
   font-family: 'poppins', sans-serif;
   background-color: #f8f8f8;
   height: 99vh;
+  user-select: none;
 }
 
 h3 {
