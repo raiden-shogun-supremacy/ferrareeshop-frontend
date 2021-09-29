@@ -11,7 +11,7 @@ const LoginStatus = () => {
     return (
         <div>
             <div className="logged-in-box">
-                {/* We will useState to get an API later here */}
+                {/* We will useState to get an API later down here */}
                 <div className="crop">
                     <img src="/user/shogun.jpg" />
                 </div>

@@ -1,4 +1,4 @@
-import './PageStyle.css';
+import '../PageStyle.css';
 
 const ERM = () => {
     return (

@@ -8,6 +8,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
+    position: fixed;
 }
 
 /* This is for Ferraree's logo*/

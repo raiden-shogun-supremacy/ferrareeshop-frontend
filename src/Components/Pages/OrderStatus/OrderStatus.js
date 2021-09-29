@@ -1,10 +1,10 @@
-import './PageStyle.css';
+import '../PageStyle.css';
 
-const DiscountManage = () => {
+const OrderStatus = () => {
     return (
         <div className="container">
-            <h1>Discount Coupon 🎟️</h1>
-            <h4>Get more customer with a discount coupon!</h4>
+            <h1>Order Status ✅</h1>
+            <h4>Tracking the orders which be made.</h4>
             <div className="content">
                 {/* <img src="/images/error404.png" />
                 <p className="caution">NAH, ONLY THE MARKETING MANAGER CAN ACCESS THIS SECTION!</p> */}
@@ -13,4 +13,4 @@ const DiscountManage = () => {
     );
 }
 
-export default DiscountManage;
+export default OrderStatus;

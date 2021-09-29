@@ -6,7 +6,7 @@
         "Unitprice" : "$14.99",
         "InStockAmt" : "0",
         "Tag" : "Pre-order",
-        "img" : "/wargreymon.jpg"
+        "img" : "/images/dummy/wargreymon.jpg"
     },
     {
         "ProductName" : "Digimon: Metal Garurumon",
@@ -15,7 +15,7 @@
         "Unitprice" : "$14.99",
         "InStockAmt" : "0",
         "Tag" : "Pre-order",
-        "img" : "/metalgarurumon.jpg"
+        "img" : "/images/dummy/metalgarurumon.jpg"
     },
     {
         "ProductName" : "Digimon: Garudamon",
@@ -24,7 +24,7 @@
         "Unitprice" : "$14.99",
         "InStockAmt" : "0",
         "Tag" : "Pre-order",
-        "img" : "/garudamon.jpg"
+        "img" : "/images/dummy/garudamon.jpg"
     },
     {
         "ProductName" : "One Piece: Sanji",
@@ -33,7 +33,7 @@
         "Unitprice" : "$19.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/sanji.jpg"
+        "img" : "/images/dummy/sanji.jpg"
     },
     {
         "ProductName" : "One Piece: Roronoa Zoro",
@@ -42,7 +42,7 @@
         "Unitprice" : "$19.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/zoro.jpg"
+        "img" : "/images/dummy/zoro.jpg"
     },
     {
         "ProductName" : "One Piece: Monkey D. Luffy",
@@ -51,7 +51,7 @@
         "Unitprice" : "$19.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/luffy.jpg"
+        "img" : "/images/dummy/luffy.jpg"
     },
     {
         "ProductName" : "Naruto: Uzumaki Naruto Sage Mode",
@@ -60,7 +60,7 @@
         "Unitprice" : "$19.99",
         "InStockAmt" : "0",
         "Tag" : "Pre-order",
-        "img" : "/naruto.jpg"
+        "img" : "/images/dummy/naruto.jpg"
     },
     {
         "ProductName" : "Naruto: Gaara",
@@ -69,7 +69,7 @@
         "Unitprice" : "$19.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/gaara.jpg"
+        "img" : "/images/dummy/gaara.jpg"
     },
     {
         "ProductName" : "Naruto: Minato Namikaze",
@@ -78,7 +78,7 @@
         "Unitprice" : "$19.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/minato.jpg"
+        "img" : "/images/dummy/minato.jpg"
     },
     {
         "ProductName" : "Naruto: Itachi Uchiha",
@@ -87,7 +87,7 @@
         "Unitprice" : "$19.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/itachi.jpg"
+        "img" : "/images/dummy/itachi.jpg"
     },
     {
         "ProductName" : "Star Wars™: Darth Vader™ Meditation Chamber",
@@ -96,7 +96,7 @@
         "Unitprice" : "$69.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/darthvadermed.jpg"
+        "img" : "/images/dummy/darthvadermed.jpg"
     },
     {
         "ProductName" : "Star Wars™: Duel on Mandalore™",
@@ -105,7 +105,7 @@
         "Unitprice" : "$19.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/duelinmanda.jpg"
+        "img" : "/images/dummy/duelinmanda.jpg"
     },
     {
         "ProductName" : "Star Wars™: Boba Fett’s Starship™",
@@ -114,7 +114,7 @@
         "Unitprice" : "$49.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/bobaship.jpeg"
+        "img" : "/images/dummy/bobaship.jpeg"
     },
     {
         "ProductName" : "Star Wars™: Boba Fett’s Starship™",
@@ -123,7 +123,7 @@
         "Unitprice" : "$49.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/bobaship.jpeg"
+        "img" : "/images/dummy/bobaship.jpeg"
     },
     {
         "ProductName" : "Star Wars™: Mandalorian Starfighter™",
@@ -132,7 +132,7 @@
         "Unitprice" : "$59.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/starfighter.jpg"
+        "img" : "/images/dummy/starfighter.jpg"
     },
     {
         "ProductName" : "Pokemon: Fire and Water Battle Pack",
@@ -141,7 +141,7 @@
         "Unitprice" : "$12.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/fireandwater.jpg"
+        "img" : "/images/dummy/fireandwater.jpg"
     },
     {
         "ProductName" : "Pokemon: Fire and Water Battle Pack",
@@ -150,7 +150,7 @@
         "Unitprice" : "$12.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/fireandwater.jpg"
+        "img" : "/images/dummy/fireandwater.jpg"
     },
     {
         "ProductName" : "Pokemon: Battle Feature Figure - Greninja , Blue",
@@ -159,7 +159,7 @@
         "Unitprice" : "$9.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/greninja.jpg"
+        "img" : "/images/dummy/greninja.jpg"
     },
     {
         "ProductName" : "Pokemon: Battle Feature Figure - Snorlax",
@@ -168,7 +168,7 @@
         "Unitprice" : "$9.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/snorlax.jpg"
+        "img" : "/images/dummy/snorlax.jpg"
     },
     {
         "ProductName" : "Pokemon: Pokémon Electronic & Interactive My Partner Pikachu",
@@ -177,7 +177,7 @@
         "Unitprice" : "$16.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/pickachu.jpg"
+        "img" : "/images/dummy/pickachu.jpg"
     },
     {
         "ProductName" : "Demon Slayer (Kimetsu no Yaiba) Vibration Stars Tanjiro Kamado Figure",
@@ -186,7 +186,7 @@
         "Unitprice" : "$34.50",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/tanjiro.jpg"
+        "img" : "/images/dummy/tanjiro.jpg"
     },
     {
         "ProductName" : "Demon Slayer (Kimetsu no Yaiba) Glitter&GLAMOURS-NEZUKO KAMADO Figure",
@@ -195,7 +195,7 @@
         "Unitprice" : "$28.63",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/nezuko.jpg"
+        "img" : "/images/dummy/nezuko.jpg"
     },
     {
         "ProductName" : "Demon Slayer (Kimetsu no Yaiba) Kimetsu no Yaiba vol.7 Kanao Tsuyuri Figure",
@@ -204,7 +204,7 @@
         "Unitprice" : "$21.99",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/kanao.jpg"
+        "img" : "/images/dummy/kanao.jpg"
     },
     {
         "ProductName" : "Demon Slayer (Kimetsu no Yaiba) Kimetsu no Yaiba Figure vol.10 (B:KYOJURO RENGOKU)",
@@ -213,7 +213,7 @@
         "Unitprice" : "$34.50",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/kyojuro.jpg"
+        "img" : "/images/dummy/kyojuro.jpg"
     },
     {
         "ProductName" : "Demon Slayer (Kimetsu no Yaiba) Zenitsu Agatsuma",
@@ -222,6 +222,6 @@
         "Unitprice" : "$36.71",
         "InStockAmt" : "0",
         "Tag" : "None",
-        "img" : "/zenitsu.jpg"
+        "img" : "/images/dummy/zenitsu.jpg"
     }
 ]

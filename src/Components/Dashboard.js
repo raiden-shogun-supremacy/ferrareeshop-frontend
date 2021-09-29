@@ -2,10 +2,10 @@ import { useState } from 'react';
 import '../App.css';
 import CartBtn from './Cart/CartBtn';
 import Discount404 from './Pages/Error/Discount404';
-import ProductCatalog from './Pages/ProductCatalog';
-import OrderStatus from './Pages/OrderStatus';
-import DiscountManage from './Pages/DiscountManage';
-import ERM from './Pages/ERM';
+import ProductCatalog from './Pages/Product/ProductCatalog';
+import OrderStatus from './Pages/OrderStatus/OrderStatus';
+import DiscountManage from './Pages/Discount/DiscountManage';
+import ERM from './Pages/ERM/ERM';
 import SideBar from './SideBar/SideBar';
 
 function Dashboard() {
