@@ -71,7 +71,7 @@
 
 .logged-in-box {
     font-family: 'poppins', sans-serif;
-    margin: 0px 10px 20px 10px;
+    margin: 10px auto;
     border-radius: 20px;
     padding: 20px;
     background-color: #ffffff;
@@ -80,6 +80,7 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.1);
+    width: auto;
 }
 
 .logged-in-box h3 {
@@ -93,6 +94,20 @@
     color: #b4b4b4;
 }
 
+.crop {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.crop img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
 .log-out {
     background-color: #ae2012;
     font-family: 'poppins',sans-serif;
@@ -102,7 +117,7 @@
     margin: 5px;
     border-radius: 10px;
     border: none;
-    width: 100%;
+    width: 220px;
     cursor: pointer;
     transition: .2s;
 }
