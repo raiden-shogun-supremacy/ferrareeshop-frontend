@@ -18,23 +18,23 @@ const SideBar = ({ passingIndex }) => {
 
     switch(switchIndex) {
         case 'Products' : 
-            console.log('Products');
+            // console.log('Products');
             passingIndex(switchIndex);
             break;
         case 'Order Status' :
-            console.log('Order Status');
+            // console.log('Order Status');
             passingIndex(switchIndex);
             break;
         case 'Discount Coupon' :
-            console.log('Discount Coupon');
+            // console.log('Discount Coupon');
             passingIndex(switchIndex)
             break;
         case 'ERM System' :
-            console.log('ERM');
+            // console.log('ERM');
             passingIndex(switchIndex);
             break;
         default :
-            console.log('Products');
+            // console.log('Products');
             passingIndex(switchIndex);
             break;
     }

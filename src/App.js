@@ -1,7 +1,5 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Dashboard from './Components/Dashboard';
-import ProductCatalog from './Components/Pages/ProductCatalog';
-import Discount404 from './Components/Pages/Error/Discount404';
 import Error404 from './Components/Pages/Error/Error404';
 
 function App() {
