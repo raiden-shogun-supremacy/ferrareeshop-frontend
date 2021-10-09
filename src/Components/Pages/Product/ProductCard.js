@@ -16,11 +16,11 @@ const ProductCard = ({ detail }) => {
         <div className="card">
             <img src={detail.img} />
             <p>{detail.ProductName}</p>
-            <p># {detail.ProdID}</p>
+            <span># {detail.ProdID}</span>
             <span className={cssVar}>
                 {detail.Tag}
             </span>
-            <span>{detail.Unitprice}</span>
+            <p className="price-num">{detail.Unitprice}</p>
             <span>{detail.VendorName}, {detail.Height}</span>
         </div>
     );
