@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Product",
+        "icon": "/icon/product.png"
+    },
+    {
+        "name": "Order Status",
+        "icon": "/icon/order_status.png"
+    },
+    {
+        "name": "Discount Coupon",
+        "icon": "/icon/discount.png"
+    },
+    {
+        "name": "ERM System",
+        "icon": "/icon/erm.png"
+    }
+]

@@ -1,0 +1,133 @@
+.sidebar {
+    padding: 5px;
+    width: 300px;
+    height: 100vh;
+    border-right: 1px solid #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    position: fixed;
+}
+
+/* This is for Ferraree's logo*/
+.sidebar img {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #b4b4b4;
+}
+
+.credit p {
+    font-size: 10px;
+    margin: 0;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.menu-list button {
+    padding: 12px;
+    margin: 5px;
+    width: auto;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    transition: .1s;
+    outline: none;
+}
+
+.menu-list button:hover {
+    background-color: rgba(238, 155, 0, 0.4);
+}
+
+.menu-list button:active {
+    background-color: rgba(238, 155, 0, 1);
+}
+
+.menu-list img {
+    width: 8%;
+    margin: 5px;
+    margin-right: 10px;
+    filter: opacity(.8);
+}
+
+.logged-in-box {
+    font-family: 'poppins', sans-serif;
+    margin: 10px auto;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.1);
+    width: auto;
+}
+
+.logged-in-box h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 5px;
+}
+
+.logged-in-box p {
+    margin: 5px;
+    color: #b4b4b4;
+}
+
+.crop {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.crop img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.log-out {
+    background-color: #ae2012;
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 220px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.log-out:hover {
+    background-color: #921c11;
+}
+
+.log-out:active {
+    background-color: #5a120b;
+}
