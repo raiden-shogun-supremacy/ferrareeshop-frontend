@@ -48,12 +48,16 @@ img {
     padding: 12px 52px;
     font-weight: 600;
     font-size: 1.5em;
+    cursor: pointer;
+    transition: .2s;
 }
 
 .btn-primary:hover {
-    color: #ffffff;
     background-color: #D98D00;
-    border: none;
+}
+
+.btn-primary:active {
+    background-color: #F2B440;
 }
 
 form { margin: 0 auto; }
