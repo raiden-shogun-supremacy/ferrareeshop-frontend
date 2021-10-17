@@ -1,5 +1,5 @@
 ## Pre-caution
-Here is `feature/login-register` branch, where we official release the project. If you want to participate, you need to change branch to `dev` by `git branch dev` after you cloned this project.
+Here is `feature/login-register` branch, where we do the features of login page.
 # How to get started with React
 1. clone this reposity by Git Clone in VSCode (or other IDE).
 2. use `npm install` to install libraries which we use in this project
