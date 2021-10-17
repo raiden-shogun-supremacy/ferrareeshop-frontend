@@ -1,28 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
 
-
-* {
-    box-sizing: border-box;
-}
 body {
-    background: #F6F6F6 !important;
-    min-height: 100vh;
-    display: flex;
     font-weight: 400;
     font-family: 'Prompt', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6,label,span {
-    font-weight: 500;
+h1 {
+    font-weight: 600;
+    font-size: 2.5em;
+    margin-bottom: 23px;
+    margin-top: 0;
     font-family: 'Prompt', sans-serif;
 }
 
-body, html, .App, #root, .auth-wrapper {
-    width: 100%;
-    height: 100%;
-    max-width: 420px;
-    margin-left: auto;
-    margin-right: auto;
+label,span {
+    font-weight: 500;
+    font-size: 1.2em;
+    font-family: 'Prompt', sans-serif;
 }
 
 a:link {
@@ -39,24 +33,35 @@ img {
     max-height: 100%;
 }
 
+.login-container {
+    margin: auto;
+    width: 100%;
+    transform: translate(0%, 25%);
+    align-items: stretch;
+}
+
 .btn-primary {
     color: #ffffff;
     background-color: #EE9B00;
     border: none;
-    padding: 9.5px 55.5px;
-    font-weight: bold;
+    border-radius: 8px;
+    padding: 12px 52px;
+    font-weight: 600;
+    font-size: 1.5em;
 }
 
 .btn-primary:hover {
     color: #ffffff;
     background-color: #D98D00;
     border: none;
-    padding: 9.5px 55.5px;
-    font-weight: bold;
 }
 
-.form-control:focus {
-    border-color: #16A29A;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(152, 241, 236, 0.6);
-  }
+form { margin: 0 auto; }
+
+.form-control {
+    width: 372px;
+    height: 28px;
+    border-radius: 8px;
+}
+
 
