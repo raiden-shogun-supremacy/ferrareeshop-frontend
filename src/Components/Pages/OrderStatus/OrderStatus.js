@@ -1,13 +1,33 @@
 import '../PageStyle.css';
+import order_status from '../../../Data/order_status.json';
+import './StatusTable.css';
 
 const OrderStatus = () => {
+    const order_fetch = order_status.map((data, key) => {
+        return (
+            <tr>
+                <td>{data.ReceiptID}</td>
+                <td>{data.Status}</td>
+            </tr>
+        );
+    });
+
     return (
         <div className="container">
-            <h1>Order Status ✅</h1>
-            <h4>Tracking the orders which be made.</h4>
+            <div className="header">
+                <h1>Order Status ✅</h1>
+                <h4>Tracking the orders which be made.</h4>
+            </div>
             <div className="content">
-                {/* <img src="/images/error404.png" />
-                <p className="caution">NAH, ONLY THE MARKETING MANAGER CAN ACCESS THIS SECTION!</p> */}
+                <div>
+                    <table>
+                        <tr>
+                            <th>Receipt ID</th>
+                            <th>Status</th>
+                        </tr>
+                        {order_fetch}
+                    </table>
+                </div>
             </div>
         </div>
     );
