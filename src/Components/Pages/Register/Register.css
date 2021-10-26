@@ -1,0 +1,54 @@
+
+.register-container {
+    margin: auto;
+    max-width: 372px;
+    transform: translate(0%, 35%);
+    align-items: stretch;
+    padding: 0;
+}
+
+.register-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 4rem;
+    grid-row-gap: 1rem;
+    column-gap: 2px;
+}
+
+.register-form label, .register-form input, .register-form select {
+    display: block;
+    width: 100%;
+}
+
+.register-form input {
+    height: 40px;
+    border-radius: 8px;
+    box-sizing: border-box; 
+}
+
+.register-form select {
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #C9C3B4;
+    box-sizing: border-box; 
+    padding: 4px;
+    padding-left:8px;
+}
+
+.register-form select:required:invalid {
+    color: #C9C3B4;
+}
+
+option {
+    color: black;
+}
+
+.register-form select:focus {
+    background-color: #FAFCFE;
+    border: 1px solid #16A29A;
+}
+
+.fullwidth {
+    grid-column: span 2;
+}
+
