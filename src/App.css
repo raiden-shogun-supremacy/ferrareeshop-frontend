@@ -49,7 +49,6 @@ p {
   font-size: 16px;
 }
 
-
 input {
   outline: none;
   font-family: 'poppins', sans-serif;
@@ -86,16 +85,16 @@ width: fit-content;
 }
 
 table th:last-child {
-border-top-right-radius: 10px;
-border:none;
+  border-top-right-radius: 10px;
+  border:none;
 }
 
 tr:nth-child(even) {
-background-color: #fafcfe;
+  background-color: #fafcfe;
 }
 
 tr:nth-child(odd) {
-background-color: #F8F5EC;
+  background-color: #F8F5EC;
 }
 
 th {
@@ -107,9 +106,9 @@ th {
 }
 
 td {
-padding: 10px;
-text-align: center;
-border: 1px solid #dfdfdf;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #dfdfdf;
 }
 
 .App {

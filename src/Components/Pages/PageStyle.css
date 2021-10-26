@@ -39,28 +39,28 @@
     gap: 12px; */
 }
 
-.box {
+.discount-box-input {
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
 }
 
-.box div:nth-child(2) {
+.discount-box-input div:nth-child(2) {
     margin-left: 10px;
 }
 
-.box p {
+.discount-box-input p {
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-.box input {
+.discount-box-input input {
     padding: 10px;
     width: 200px;
 }
 
-.space-between {
+.search-between {
     display: flex;
     justify-content: space-between;
     align-items: center;

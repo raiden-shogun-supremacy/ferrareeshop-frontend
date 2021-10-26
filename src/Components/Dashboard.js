@@ -37,7 +37,7 @@ function Dashboard() {
     return (
         <div className="App">
             <SideBar passingIndex={onMenuTabClicked}/>
-            {render_side_view}
+            {render_side_view}    
         </div>
     );
 }
