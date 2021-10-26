@@ -1,0 +1,141 @@
+[
+    {
+        "ProductName" : "Digimon: Wargreymon",
+        "Category" : "3.5-inch",
+        "LotNo": 1,
+        "UnitPrice" : 14.99,
+        "InStockAmt" : 1
+    },{
+        "ProductName" : "Digimon: Metal Garurumon",
+        "Category" : "3.5-inch",
+        "LotNo": 1,
+        "UnitPrice" : 14.99,
+        "InStockAmt" : 0
+    },    {
+        "ProductName" : "Digimon: Garudamon",
+        "Category" : "3.5-inch",
+        "LotNo": 1,
+        "UnitPrice" : 14.99,
+        "InStockAmt" : 0
+    },    {
+        "ProductName" : "One Piece: Sanji",
+        "Category" : "6.5-inch",
+        "LotNo": 1,
+        "UnitPrice" : 19.99,
+        "InStockAmt" : 0
+    },    {
+        "ProductName" : "One Piece: Roronoa Zoro",
+        "Category" : "6.5-inch",
+        "LotNo": 1,
+        "UnitPrice" : 19.99,
+        "InStockAmt" : 0
+    },    {
+        "ProductName" : "One Piece: Monkey D. Luffy",
+        "Category" : "6.5-inch",
+        "LotNo": 1,
+        "UnitPrice" : 19.99,
+        "InStockAmt" : 1
+    },    {
+        "ProductName" : "Naruto: Uzumaki Naruto Sage Mode",
+        "Category" : "6.5-inch",
+        "LotNo": 1,
+        "UnitPrice" : 19.99,
+        "InStockAmt" : 1
+    },    {
+        "ProductName" : "Naruto: Gaara",
+        "Category" : "6.5-inch",
+        "LotNo": 1,
+        "UnitPrice" : 19.99,
+        "InStockAmt" : 0
+    },    {
+        "ProductName" : "Naruto: Minato Namikaze",
+        "Category" : "6.5-inch",
+        "LotNo": 1,
+        "UnitPrice" : 19.99,
+        "InStockAmt" : 0
+    },    {
+        "ProductName" : "Naruto: Itachi Uchiha",
+        "Category" : "6.5-inch",
+        "LotNo": 1,
+        "UnitPrice" : 19.99,
+        "InStockAmt" : 0
+    },    {
+        "ProductName" : "Star Wars™: Darth Vader™ Meditation Chamber",
+        "Category" : "7-inch",
+        "LotNo": 1,
+        "UnitPrice" : 69.99,
+        "InStockAmt" : 1
+    },    {
+        "ProductName" : "Star Wars™: Duel on Mandalore™",
+        "Category" : "3-inch",
+        "LotNo": 1,
+        "UnitPrice" : 19.99,
+        "InStockAmt" : 0
+    },    {
+        "ProductName" : "Star Wars™: Boba Fett’s Starship™",
+        "Category" : "3.5-inch",
+        "LotNo": 1,
+        "UnitPrice" : 49.99,
+        "InStockAmt" : 0
+    },    {
+        "ProductName" : "Star Wars™: Mandalorian Starfighter™",
+        "Category" : "2.5-inch",
+        "LotNo": 1,
+        "UnitPrice" : 59.99,
+        "InStockAmt" : 0
+    },    {
+        "ProductName" : "Pokemon: Fire and Water Battle Pack",
+        "Category" : "6-inch",
+        "LotNo": 1,
+        "UnitPrice" : 12.99,
+        "InStockAmt" : 0
+    },    {
+        "ProductName" : "Pokemon: Battle Feature Figure - Greninja , Blue",
+        "Category" : "5.5-inch",
+        "LotNo": 1,
+        "UnitPrice" : 9.99,
+        "InStockAmt" : 0
+    },    {
+        "ProductName" : "Pokemon: Battle Feature Figure - Snorlax",
+        "Category" : "5.5-inch",
+        "LotNo": 1,
+        "UnitPrice" : 9.99,
+        "InStockAmt" : 0
+    },    {
+        "ProductName" : "Pokemon: Pokémon Electronic & Interactive My Partner Pikachu",
+        "Category" : "6.5-inch",
+        "LotNo": 1,
+        "UnitPrice" : 11.99,
+        "InStockAmt" : 1
+    },    {
+        "ProductName" : "Demon Slayer (Kimetsu no Yaiba) Vibration Stars Tanjiro Kamado Figure",
+        "Category" : "3-inch",
+        "LotNo": 1,
+        "UnitPrice" : 30.99,
+        "InStockAmt" : 1
+    },    {
+        "ProductName" : "Demon Slayer (Kimetsu no Yaiba) Glitter&GLAMOURS-NEZUKO KAMADO Figure",
+        "Category" : "6-inch",
+        "LotNo": 1,
+        "UnitPrice" : 20.99,
+        "InStockAmt" : 0
+    },    {
+        "ProductName" : "Demon Slayer (Kimetsu no Yaiba) Kimetsu no Yaiba vol.7 Kanao Tsuyuri Figure",
+        "Category" : "8-inch",
+        "LotNo": 1,
+        "UnitPrice" : 21.99,
+        "InStockAmt" : 0
+    },    {
+        "ProductName" : "Demon Slayer (Kimetsu no Yaiba) Kimetsu no Yaiba Figure vol.10 (B:KYOJURO RENGOKU)",
+        "Category" : "8-inch",
+        "LotNo": 1,
+        "UnitPrice" : 30.99,
+        "InStockAmt" : 0
+    },    {
+        "ProductName" : "Demon Slayer (Kimetsu no Yaiba) Zenitsu Agatsuma",
+        "Category" : "3-inch",
+        "LotNo": 1,
+        "UnitPrice" : 35.99,
+        "InStockAmt" : 0
+    }
+]

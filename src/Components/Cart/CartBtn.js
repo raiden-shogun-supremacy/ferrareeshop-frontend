@@ -1,8 +1,11 @@
+import { useState } from 'react';
 import './CartBtn.css';
 
-const CartBtn = () => {
+
+
+const CartBtn = ({ onCartClick }) => {
     return (
-        <div className="cart-btn">
+        <div className="cart-btn" onClick={() => onCartClick()}>
             <img src="/icon/cart.png" />
         </div>
     );
