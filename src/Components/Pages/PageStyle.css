@@ -44,7 +44,7 @@ input:focus {
     width: 100%;
 }
 
-.content {
+.catalog {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,9 +53,16 @@ input:focus {
     max-width: auto;
 }
 
+.content {
+
+}
+
+.content button {
+    margin-left: 0px;
+}
+
 .wrapper {
     margin-top: 30px;
-
     display: flex;
     flex-wrap: wrap;
 
@@ -64,8 +71,50 @@ input:focus {
     gap: 12px; */
 }
 
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.box div:nth-child(2) {
+    margin-left: 10px;
+}
+
+.box p {
+    margin-bottom: 0px;
+}
+
+.box input {
+    padding: 10px;
+    width: 200px;
+}
+
 .space-between {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.btn-primary {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-color: #EE9B00;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-primary:hover {
+    background-color: #D98D00;
+}
+
+.btn-primary:active {
+    background-color: #b37502;
 }

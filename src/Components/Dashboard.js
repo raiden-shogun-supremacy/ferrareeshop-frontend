@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import '../App.css';
-import CartBtn from './Cart/CartBtn';
 import Discount404 from './Pages/Error/Discount404';
 import ProductCatalog from './Pages/Product/ProductCatalog';
 import OrderStatus from './Pages/OrderStatus/OrderStatus';
@@ -37,7 +36,6 @@ function Dashboard() {
 
     return (
         <div className="App">
-            <CartBtn />
             <SideBar passingIndex={onMenuTabClicked}/>
             {render_side_view}
         </div>
