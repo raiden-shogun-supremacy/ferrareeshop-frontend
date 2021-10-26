@@ -1,19 +1,29 @@
-table {
-    width: 100%;
-    border-collapse: collapse;
+.table-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-    background-color: #EE9B00;
-  }
+.in-progress {
+  color: #001219;
+}
 
-tr:nth-child(even) {
-    background-color: #fafcfe;
-  }
+.canceled {
+  color : #AE2012;
+}
 
-tr:nth-child(odd) {
-    background-color: #c9c3b4;
+.on-hold {
+  color: #EE9B00;
+}
+
+.disputed {
+  color : #9c359c;
+}
+
+.shipped {
+  color: #16A29A;
+}
+
+.resolved {
+  color : #201e80;
 }

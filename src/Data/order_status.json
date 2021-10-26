@@ -1,8 +1,10 @@
 [
-{"ReceiptID":"1","Status":"In progress"},
-{"ReceiptID":"2","Status":"Canceled"},
-{"ReceiptID":"3","Status":"Disputed"},
-{"ReceiptID":"4","Status":"On hold"},
-{"ReceiptID":"5","Status":"On hold"},
-{"ReceiptID":"6","Status":"Disputed"}
+    {"ReceiptID":"1","Status":"In progress"},
+    {"ReceiptID":"2","Status":"Canceled"},
+    {"ReceiptID":"3","Status":"Disputed"},
+    {"ReceiptID":"4","Status":"On hold"},
+    {"ReceiptID":"5","Status":"On hold"},
+    {"ReceiptID":"6","Status":"Disputed"},
+    {"ReceiptID":"7","Status":"Shipped"},
+    {"ReceiptID":"8","Status":"Resolved"}
 ]
