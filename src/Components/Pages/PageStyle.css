@@ -53,12 +53,6 @@ input:focus {
     max-width: auto;
 }
 
-.caution {
-    color: #ae2012;
-    font-weight: 600;
-    font-size: 1.2em;
-}
-
 .wrapper {
     margin-top: 30px;
 
@@ -74,9 +68,4 @@ input:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.error-img {
-    margin: 20px;
-    width: 45%;
 }

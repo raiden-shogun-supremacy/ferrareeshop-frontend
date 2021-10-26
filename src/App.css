@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
 html {
   overflow: scroll;
   overflow-x: hidden;
@@ -19,7 +18,7 @@ html {
 }
 
 body {
-  font-family: 'poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #f8f8f8;
   height: 99vh;
   user-select: none;

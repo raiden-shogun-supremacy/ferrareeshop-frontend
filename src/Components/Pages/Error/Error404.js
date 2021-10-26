@@ -1,9 +1,9 @@
-import '../PageStyle.css';
+import './Error.css';
 
 const Error404 = () => {
     return (
-        <div className="container">
-            <div className="content">
+        <div id="container">
+            <div id="content">
                 <h1>Uh-Oh... 😞</h1>
                 <h4>Page Not Found</h4>
                 <img className="error-img" src="/images/notfound.png" />

@@ -9,7 +9,7 @@ const ProductCatalog = () => {
     const [searchText, setSearchText] = useState('')
 
     const render_product_showcase = dummy.filter((text) => {
-        return text.ProductName.toUpperCase().toLowerCase().includes(searchText);
+        return text.ProductName.toUpperCase().toLowerCase().includes(searchText) || text.ProdID.includes(searchText);
     }).map((data, key) => {
         return <ProductCard detail={data} index={key} />
     });
@@ -20,7 +20,7 @@ const ProductCatalog = () => {
                     <h1>Products 📦 </h1>
                     <h4>Let's make some order!</h4>
                 </div>
-                <input className="input" placeholder="search" value={searchText} onChange={(e) => setSearchText(e.target.value)}/>
+                <input className="input" placeholder="search name or id" value={searchText} onChange={(e) => setSearchText(e.target.value)}/>
             </div>
             <div className="content">
                 <div className="wrapper">
