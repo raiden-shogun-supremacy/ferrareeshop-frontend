@@ -1,5 +1,5 @@
-import '../PageStyle.css';
 import order_status from '../../../Data/order_status.json';
+import '../PageStyle.css';
 import './StatusTable.css';
 
 const OrderStatus = () => {

@@ -20,6 +20,10 @@
     background-color: #dd9000;
 }
 
+.cart-btn:active {
+    background-color: #b37502;
+}
+
 .cart-btn img {
     filter: invert();
     width: 50%;
