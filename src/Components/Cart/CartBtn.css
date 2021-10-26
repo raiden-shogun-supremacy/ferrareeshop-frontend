@@ -17,8 +17,11 @@
 }
 
 .cart-btn:hover {
-    bottom: 10px;
     background-color: #dd9000;
+}
+
+.cart-btn:active {
+    background-color: #b37502;
 }
 
 .cart-btn img {

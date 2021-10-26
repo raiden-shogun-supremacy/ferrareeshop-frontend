@@ -1,0 +1,29 @@
+.table-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.in-progress {
+  color: #001219;
+}
+
+.canceled {
+  color : #AE2012;
+}
+
+.on-hold {
+  color: #EE9B00;
+}
+
+.disputed {
+  color : #9c359c;
+}
+
+.shipped {
+  color: #16A29A;
+}
+
+.resolved {
+  color : #201e80;
+}
