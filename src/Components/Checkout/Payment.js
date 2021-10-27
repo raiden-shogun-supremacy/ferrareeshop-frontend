@@ -2,16 +2,10 @@ import './Checkout.css'
 import '../Pages/PageStyle.css';
 import bufferSlot from './bufferSlot';
 import Bill from './Bill';
-import { useState } from 'react';
 import Dashboard from '../Dashboard';
+import {Link} from "react-router-dom";
 
 const Payment = () =>{
-
-    const[finished, setFinished] = useState('');
-
-    const getPassedFinished = (x) => {
-        setFinished(x)
-    }
 
     const bufferSlot_fetch = bufferSlot.map((data, key) => {
         return (
@@ -30,13 +24,12 @@ const Payment = () =>{
                         <div>
                             {bufferSlot_fetch}
                         </div>
-                    <div>
-                            
+                    <div>   
                             <h3>Total: {}</h3>
                     </div>
                     </div>
 
-                    <button type="submit" className="btn-primary" onClick={getPassedFinished}>Finished!</button>
+                    <Link to ="/Dashboard"><button type="submit" className="btn-primary">Finished!</button></Link>
                 </div>
             </div>
         </div>
