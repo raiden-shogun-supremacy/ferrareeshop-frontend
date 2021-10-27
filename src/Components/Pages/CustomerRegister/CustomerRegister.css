@@ -1,0 +1,89 @@
+
+.customer-register-bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+.customer-register-pop {
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 85%;
+    height: 85%;
+    border-radius: 20px;
+}
+
+.customer-register-content{
+    text-align: center;
+    margin-top: 1px ;
+    margin-bottom: 3px;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+.little-header{
+    text-align: center;
+    position: fixed;
+    top: 17%;
+    bottom: 0;
+    left: 0;
+    right: 100px;
+}
+
+
+.customer-register-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 4rem;
+    grid-row-gap: 1rem;
+    column-gap: 3px;
+    width: 50%;
+    margin: auto;
+}
+
+.customer-register-form label, .customer-register-form input, .customer-register-form select {
+    display: grid;
+    width: 100%;
+}
+
+.customer-register-form input {
+    height: 40px;
+    border-radius: 8px;
+    box-sizing: border-box; 
+}
+
+.customer-register-form select {
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #C9C3B4;
+    box-sizing: border-box; 
+    padding: 4px;
+    padding-left:8px;
+}
+
+.customer-register-form select:required:invalid {
+    color: #C9C3B4;
+}
+
+option {
+    color: black;
+}
+
+.customer-fullwidth {
+    grid-column: span 2;
+}
+
+.quit{
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 95%;
+    cursor: pointer;
+}
