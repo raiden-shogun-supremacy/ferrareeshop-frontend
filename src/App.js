@@ -6,7 +6,7 @@ import Login from './Components/Pages/Login/Login';
 import OrderStatus from './Components/Pages/OrderStatus/OrderStatus';
 import Register from './Components/Pages/Register/Register';
 import CustomerRegister from './Components/Pages/CustomerRegister/CustomerRegister';
-import Payment from './Components/Pages/Payment/Payment';
+import Payment from './Components/Checkout/Payment';
 
 function App() {
   return (
