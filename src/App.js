@@ -17,6 +17,8 @@ function App() {
         <Route exact path ="/register" component={Register} />
         <Route exact path ="/order" component={OrderStatus} />
         <Route exact path ="/basket" component={Basket} />
+        <Route exact path ="/customer-register" component={CustomerRegister} />
+        <Route exact path ="/dashboard" component={Dashboard} />
         <Route component={Error404} />
       </Switch>
     </BrowserRouter>
