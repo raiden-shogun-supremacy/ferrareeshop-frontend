@@ -1,0 +1,56 @@
+.payment-bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+.payment-pop {
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 85%;
+    height: 85%;
+    border-radius: 20px;
+}
+
+.payment-content{
+    margin-top: 1px ;
+    margin-bottom: 3px;
+    top: 17%;
+    margin-left: 7%;
+    background-color: #f6f6f6;
+}
+
+.payment-little-header{
+    text-align: center;
+    position: fixed;
+    top: 17%;
+    margin-left: 6%;
+}
+
+.customer-fullwidth {
+    grid-column: span 2;
+}
+
+.quit{
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 95%;
+    cursor: pointer;
+}
+
+.reciept{
+    background-color: #FAFCFE;
+    width: 500px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
