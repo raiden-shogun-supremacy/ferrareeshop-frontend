@@ -1,31 +1,45 @@
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 import employee from '../../../Data/employee.json';
 import '../PageStyle.css';
 import '../OrderStatus/StatusTable.css';
 
 const ERM = () => {
-    const employee_fetch = employee.map((data, key) => {
+
+    const [employeeList, setEmployeeList] = useState([]);
+
+    useEffect(() => {
+        axios
+            .get('http://127.0.0.1:8000/api/employee')
+            .then(resJson => {
+                setEmployeeList(resJson.data);
+            })
+            .catch(err => console.log(err.message));
+    },[]);
+
+    const employee_fetch = employeeList.map((data, key) => {
         let isHead = '';
         switch(data.IsHead){
-            case "1" :
+            case 1 :
                 isHead = "True";
                 break;
-            case "0" :
+            case 0 :
                 isHead = "-";
                 break;
         }
 
         let deptName = '';
         switch(data.DeptNo){
-            case "1" :
+            case 1 :
                 deptName = "Sales";
                 break;
-            case "2" :
+            case 2 :
                 deptName = "Marketing";
                 break;
         }
         return (
             <tr>
-                <td># {data.EmployeeID}</td>
+                <td>{data.EmployeeID}</td>
                 <td>{data.Fname}</td>
                 <td>{data.Lname}</td>
                 <td>{deptName}</td>

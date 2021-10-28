@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Checkout.css';
 
-const ListCard = ({ detail }) => {
+const ListCard = ({ detail, onQtyClick, index }) => {
 
     const [qty, setQty] = useState(1);
 
@@ -27,11 +27,11 @@ const ListCard = ({ detail }) => {
                 </div>
             </div>
             <div className="info">
-                <button className="btn-primary" onClick={() => validateMinus()}>-</button>
+                <button className="btn-primary" onClick={() => {validateMinus(); onQtyClick(index, detail.Unitprice, qty)}}>-</button>
                 <div className="qty-width">
                     <h4>{qty}</h4>
                 </div>
-                <button className="btn-primary" onClick={() => setQty(prev => prev + 1)}>+</button>
+                <button className="btn-primary" onClick={() => {setQty(prev => prev + 1); onQtyClick(index, detail.Unitprice, qty)}}>+</button>
             </div>
         </div>
     );

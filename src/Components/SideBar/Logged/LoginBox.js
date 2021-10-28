@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 const LoginStatus = () => {
@@ -24,7 +25,9 @@ const LoginStatus = () => {
                         hour12: false
                     })}
                 </p>
-                <button className="log-out">Log Out</button>
+                <Link to="/login">
+                    <button className="log-out">Log Out</button>
+                </Link>
             </div>
             <div className="credit">
                 <p>inspired by Dmitry Lauretsky</p>

@@ -17,14 +17,14 @@ const ProductCard = ({ detail }) => {
     }
     return (
         <div className="card">
-            <img src={detail.img} />
+            <img src={detail.ProductIMG} />
             <p>{detail.ProductName}</p>
-            <span># {detail.ProdID}</span>
+            <span>ProdID : {detail.ProductID}</span>
             <span className={cssVar}>
                 {tag}
             </span>
-            <p className="price-num">{detail.Unitprice}</p>
-            <span>{detail.VendorName}, {detail.Height}</span>
+            <p className="price-num">${detail.UnitPrice}</p>
+            <span>{detail.Category}</span>
         </div>
     );
 }

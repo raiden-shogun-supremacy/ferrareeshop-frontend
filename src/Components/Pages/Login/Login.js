@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import {Link, Redirect} from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+import { Link, useHistory } from "react-router-dom";
+import axios from 'axios';
 import './Login.css';
 
 
@@ -7,10 +8,40 @@ const Login = () => {
     
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
+    const [pathCtrl, setPathCtrl] = useState("");
 
-    const handleSubmit = e => {
-        e.preventDefault();
+    // let path = '';
+
+    // let pathCtrl = '/dashboard';
+
+    function auth() {
+        axios
+            .post('http://127.0.0.1:8000/api/login', {
+                Username: username,
+                Password: password
+            })
+            .then(res => {
+                switch(res.data){
+                    case 'success' :
+                        console.log('success');
+                        routeChange('/dashboard');
+                        break;
+                    case 'error' :
+                        console.log('error');
+                        alert('Invalid Authentication');
+                        break;
+                }
+            })
+            .catch(err => console.log(err.message));
     }
+    
+    function routeChange(path) {
+        setPathCtrl(path);
+        console.log(pathCtrl);
+        return pathCtrl;
+    }
+    
+
 
     return (
 
@@ -18,7 +49,6 @@ const Login = () => {
             <div className="login-container">
                 <center><img src="/logo/ferraree_logo.png" width="380px"/></center>
                 <div><center><h1>LOG IN</h1></center></div>
-                <form action="/" onSubmit={handleSubmit}>
                 <div>
                     <label for="InputUsername">Username</label>
                     <input type="text" className="form-control" 
@@ -34,8 +64,11 @@ const Login = () => {
                     onChange={(e) => setPassword(e.target.value)} required/>
                 </div>
                 <div><br/>Don't have an account? <Link to ="/register">Register here.</Link></div>
-                <center><button type="submit" className="btn btn-primary">LOG IN</button></center>
-                </form>
+                <center>
+                    <Link to={pathCtrl}>
+                        <button type="submit" className="btn btn-primary" onClick={() => {auth()}}>LOG IN</button>
+                    </Link>
+                </center>
                 </div>
         </div>
     );

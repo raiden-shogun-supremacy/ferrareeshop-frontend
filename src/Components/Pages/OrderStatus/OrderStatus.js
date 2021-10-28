@@ -1,12 +1,25 @@
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 import order_status from '../../../Data/order_status.json';
 import '../PageStyle.css';
 import './StatusTable.css';
 
 const OrderStatus = () => {
 
+    const [statusList, setStatusList] = useState([]);
+
+    useEffect(() => {
+        axios
+            .get('http://127.0.0.1:8000/api/status')
+            .then(resJson => {
+                setStatusList(resJson.data);
+            })
+            .catch(err => console.log(err.message));
+    },[]);
+
     let stat_color = '';
 
-    const order_fetch = order_status.map((data, key) => {
+    const order_fetch = statusList.map((data, key) => {
         switch(data.Status){
             case "In progress" :
                 stat_color = "in-progress";
@@ -29,7 +42,7 @@ const OrderStatus = () => {
         }
         return (
             <tr>
-                <td> # {data.ReceiptID}</td>
+                <td>{data.ReceiptID}</td>
                 <td className={stat_color}>{data.Status}</td>
             </tr>
         );

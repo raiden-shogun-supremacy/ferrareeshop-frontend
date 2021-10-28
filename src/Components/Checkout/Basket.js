@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import ListCard from './ListCard';
 import bufferSlot from './bufferSlot';
 
@@ -6,13 +7,19 @@ import '../Pages/PageStyle.css';
 
 const Basket = ({ onBgClick }) => {
 
-    let base_price = 0;
-
-    const checkout_render = bufferSlot.map((data) => {
-        base_price += data.Unitprice;
-        return <ListCard detail={data} />
+    let priceArray = [];
+    const checkout_render = bufferSlot.map((data, index) => {
+        priceArray.push(data.Unitprice);
+        return <ListCard detail={data} onQtyClick={setNewTotalPrice} index={index}/>
     });
 
+    const sumPrice = (accumulator, curr) => accumulator + curr;
+
+    function setNewTotalPrice(key, price, payload) {
+        priceArray[key] = price*payload;
+        console.log('key:' + key + ' '+ price + ' ' + payload);
+        console.log(priceArray)
+    }
     
 
     return (
@@ -32,9 +39,12 @@ const Basket = ({ onBgClick }) => {
                     <div className="coupon">
                         <p>Discount code :</p>
                         <input placeholder="discount coupon"/>
+                        <p>Customer Name :</p>
+                        <input placeholder="customer name"/>
+
                     </div>
                     <div className="coupon">
-                        <h3>Total ${base_price}</h3>
+                        <h3>Total ${priceArray.reduce(sumPrice)}</h3>
                         <button className="btn-primary">Confirm Order</button>
                     </div>
                 </div>

@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 import dummy from '../../../Data/dummy.json';
 import ProductCard from './ProductCard';
 import CartBtn from '../../Cart/CartBtn';
@@ -10,7 +11,19 @@ const ProductCatalog = () => {
 
     const [searchText, setSearchText] = useState('')
     const [openCartState, setOpenCartState] = useState(null);
+    const [productList, setProductList] = useState([]);
+    // let productList = [];
 
+    useEffect(() => {
+        axios
+            .get('http://127.0.0.1:8000/api/product')
+            .then(resJson => {
+                setProductList(resJson.data);
+            })
+            .catch(err => console.log(err.message));
+    },[]);
+
+    
     function onOpenState() {
         setOpenCartState(true);
     }
@@ -25,11 +38,14 @@ const ProductCatalog = () => {
         openCart = <Basket onBgClick={onCloseState}/>
     }
 
-    const render_product_showcase = dummy.filter((text) => {
+    const render_product_showcase = productList.filter((text) => {
         return text.ProductName.toUpperCase().toLowerCase().includes(searchText);
     }).map((data, key) => {
         return <ProductCard detail={data} index={key} />
     });
+
+    console.log(productList[0]);
+
     return (
         <div className="container">
             <div className="search-between">
