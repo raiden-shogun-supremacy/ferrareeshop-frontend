@@ -35,8 +35,8 @@ const DiscountManage = () => {
                 </div>
                 <div className="discount-box-input">
                     <div>
-                        <p>Code Amount</p>
-                        <input type="number" placeholder="(number only)" value={codeAmount} onChange={e => setCodeAmount(e.target.value)}/>
+                        <p>Discount Amount</p>
+                        <input type="number" placeholder="(number only : THB)" value={codeAmount} onChange={e => setCodeAmount(e.target.value)}/>
                     </div>
                     <div>
                         <p>Valid Until</p>

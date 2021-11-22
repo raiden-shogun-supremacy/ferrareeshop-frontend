@@ -39,7 +39,7 @@ const ProductCatalog = () => {
     }
 
     const render_product_showcase = productList.filter((text) => {
-        return text.ProductName.toUpperCase().toLowerCase().includes(searchText);
+        return text.ProductName.toUpperCase().toLowerCase().includes(searchText) || text.Category.toUpperCase().toLowerCase().includes(searchText);
     }).map((data, key) => {
         return <ProductCard detail={data} index={key} />
     });
@@ -53,7 +53,7 @@ const ProductCatalog = () => {
                     <h1>Products 📦 </h1>
                     <h4>Let's make some order!</h4>
                 </div>
-                <input className="input" placeholder="search name" value={searchText} onChange={(e) => setSearchText(e.target.value)}/>
+                <input className="input" placeholder="search name or size" value={searchText} onChange={(e) => setSearchText(e.target.value)}/>
             </div>
             <div className="catalog">
                 <div className="wrapper">

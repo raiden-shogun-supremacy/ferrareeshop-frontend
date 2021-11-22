@@ -1,11 +1,14 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import ListCard from './ListCard';
 import bufferSlot from './bufferSlot';
+import priceBuffer from './priceBuffer';
 
 import './Checkout.css';
 import '../Pages/PageStyle.css';
 
 const Basket = ({ onBgClick }) => {
+
 
     let priceArray = [];
     const checkout_render = bufferSlot.map((data, index) => {
@@ -19,6 +22,10 @@ const Basket = ({ onBgClick }) => {
         priceArray[key] = price*payload;
         console.log('key:' + key + ' '+ price + ' ' + payload);
         console.log(priceArray)
+    }
+
+    function submitPrice(){
+        priceBuffer.price = priceArray.reduce(sumPrice);
     }
     
 
@@ -45,7 +52,9 @@ const Basket = ({ onBgClick }) => {
                     </div>
                     <div className="coupon">
                         <h3>Total ${priceArray.reduce(sumPrice)}</h3>
-                        <button className="btn-primary">Confirm Order</button>
+                        <Link to="/payment">
+                            <button className="btn-primary" onClick={submitPrice}>Confirm Order</button>
+                        </Link>
                     </div>
                 </div>
             </div>

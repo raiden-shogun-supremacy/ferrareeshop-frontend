@@ -6,7 +6,7 @@ import Login from './Components/Pages/Login/Login';
 import OrderStatus from './Components/Pages/OrderStatus/OrderStatus';
 import Register from './Components/Pages/Register/Register';
 import CustomerRegister from './Components/Pages/CustomerRegister/CustomerRegister';
-import Payment from './Components/Pages/Payment/Payment';
+import Payment from './Components/Checkout/Payment';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         <Route exact path="/register" component={Register} />
         <Route exact path="/order" component={OrderStatus} />
         <Route exact path="/basket" component={Basket} />
+        <Route exact path="/payment" component={Payment} />
         <Route exact path="/customerreg" component={CustomerRegister} />
         <Route exact path="/error" component={Error404} />
         <Route component={Error404} />

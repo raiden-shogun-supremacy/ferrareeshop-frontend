@@ -1,3 +1,4 @@
+import bufferSlot from '../../Checkout/bufferSlot';
 import './ProductCard.css'
 
 const ProductCard = ({ detail }) => {
@@ -15,8 +16,19 @@ const ProductCard = ({ detail }) => {
             tag = 'In-stock'
         break;
     }
+
+    function pushToCart() {
+        bufferSlot.push({
+            ProductName : detail.ProductName,
+            ProdID : detail.ProductID,
+            Unitprice : detail.UnitPrice,
+            InStockAmt : detail.InStockAmt,
+            img : detail.ProductIMG
+        })
+    }
+
     return (
-        <div className="card">
+        <div className="card" onClick={pushToCart}>
             <img src={detail.ProductIMG} />
             <p>{detail.ProductName}</p>
             <span>ProdID : {detail.ProductID}</span>
